@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'alumniSans', sans-serif;
+    background: linear-gradient(180deg, #840707 50%, rgba(10, 10, 10, 5) 89%);
+    color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    font-family: 'Alumni Sans', sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.img-psn{
+    width: 70px;
+    height: 60px;
+    top: 14px;
+    left: 13px;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins' , sans-serif;
+
+}
+a:hover{
+    color: #daa520;
+    transition: 1s all;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+div.marvel{
+    background-color: red;
+    width: 105px;
+}
+
+
+h2{
+    font-family: 'alumniSanssemibold' , sans-serif;
+    font-style: italic;
+    color: rgba(255, 11, 11, 0.85);
+    font-size: 40px;
+    width: 320px;
+    margin-top: 5px;
+    line-height: 40px;
+  
+}
+
+span{
+    font-style: italic;
+    font-size: 40px;
+    height: 25px;
+    color: #fff;
+}
+
+p{
+    line-height: 20px;
+    max-width: 470px;
+}
+
+button{
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    box-shadow: #f3ebeb;
+}
+ button:hover{
+     background-color: aliceblue;
+     cursor: pointer;
+     color:black;
+ }
+
+ footer{
+     display: flex;
+     justify-content: center;
+     font-family: 'alumniSans' sans-serif;
+
+ }
+ 
+ 
